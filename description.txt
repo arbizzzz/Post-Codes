@@ -1,0 +1,5 @@
+Hello again this is my overview :
+First of all, I created the form in the requested format and set up the drop-down options to read from the database, country name and country code(which used for dro-down value) column.
+As you can see in the codes when the user submits the form the script first check the database for available data and if the number of rows is bigger than one (which means we already have the data) it shows in the below of form and if the number of rows is equal to zero (which means we don't have the data in the database) it starts creating the API url with the following format : 
+api.zippopotam.us/drop-down value(country code)/zip code typed in input box.
+Then I used a cURL to connect to API for check if the data is available or not. If the data is available the script uses json_decode() function to decode the JSON to an array and get the items we need, store to the database and show in front-end and if the data is not available it will show an alert box with the nothing found content.

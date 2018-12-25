@@ -1,0 +1,6 @@
+Hello dear technichal team,
+First of all please download the repo and unzip the files,
+In the files you can find an sql formatted file named worldcom.sql, in your local server (I use xampp for example) go to phpmyadmin and
+create a database name wordlcom or something else and import my sql file in it.(please note that my databse name is worldcom and if you want to use another name you should change database connection parameters from connect.php).
+When you are connected to databse successfully you can open the files in your local server and see my index.php which all the function is,
+I describe my solution to this problem in an other text file named description.
